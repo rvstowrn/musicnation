@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LAND fast | Login</title>
+    <title>Music Nation | Login</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <nav id="navbar">
       <div class="container">
-        <h1 class="logo"><a href="index.html">LAND fast</a></h1>
+        <h1 class="logo"><a href="index.html">Music Nation</a></h1>
         <ul>
           <li><a href="index.php">Home</a></li>  
           <li><a href="contact.php">Contact</a></li>         

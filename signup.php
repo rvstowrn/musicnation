@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LAND fast | Signup</title>
+    <title>Music Nation | Signup</title>
     <link href="./css/signup_style.css" rel="stylesheet" />
   </head>
 

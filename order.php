@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LAND fast | Slot Booking</title>
+    <title>Music Nation | Slot Booking</title>
     <meta name="description" content="Welcome to the best Hotel around." />    
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -11,7 +11,7 @@
     <header>
       <nav id="navbar">
         <div class="container">
-          <h1 class="logo"><a href="index.html">LAND fast</a></h1>
+          <h1 class="logo"><a href="index.html">Music Nation</a></h1>
           <ul>
             <li><a href="index.php">Home</a></li>  
             <li><a href="contact.php">Contact</a></li>         
@@ -62,7 +62,7 @@
         <div class="box">
           <i class="fas fa-hotel fa-3x"></i>
           <h3>Location</h3>
-          <p>LAND fast st,somewhere in chennai</p>
+          <p>Music Nation st,somewhere in chennai</p>
         </div>
         <div class="box">
           <i class="fas fa-phone fa-3x"></i>
@@ -72,12 +72,12 @@
         <div class="box">
           <i class="fas fa-envelope fa-3x"></i>
           <h3>Email</h3>
-          <p>LAND fast Helpline</p>
+          <p>Music Nation Helpline</p>
         </div>
       </div>
     </section>
     <footer id="main-footer">
-      <p>LAND fast &copy; 2020, All Rights Reserved</p>
+      <p>Music Nation &copy; 2020, All Rights Reserved</p>
     </footer>
     <script>
       const res = window.location.href.split("=");

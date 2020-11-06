@@ -3,11 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LAND fast|About</title>
-    <meta
-      name="description"
-      content="Welcome to the best Product landing page around."
-    />
+    <title>Music Nation|About</title>
+    <meta name="description" content="Welcome to the best music downlaod page." />    
     <meta
       name="keywords"
       content="product landing,advertising,product promotion"
@@ -18,7 +15,7 @@
     <header>
       <nav id="navbar">
         <div class="container">
-          <h1 class="logo"><a href="index.html">LAND fast</a></h1>
+          <h1 class="logo"><a href="index.html">Music Nation</a></h1>
           <ul>
             <li><a href="index.php">Home</a></li>  
             <li><a href="contact.php">Contact</a></li>         
@@ -80,7 +77,7 @@
       </div>
     </section>
     <footer id="main-footer">
-      <p>LAND fast &copy; 2020, All Rights Reserved</p>
+      <p>Music Nation &copy; 2020, All Rights Reserved</p>
     </footer>
   </body>
 </html>

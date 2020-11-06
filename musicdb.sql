@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 03, 2020 at 07:26 PM
+-- Generation Time: Nov 06, 2020 at 07:15 PM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.4.8
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `productdb`
+-- Database: `musicdb`
 --
 
 -- --------------------------------------------------------
@@ -59,7 +59,8 @@ CREATE TABLE `employee` (
 --
 
 INSERT INTO `employee` (`name`, `email`, `username`, `password`) VALUES
-('Rishabh', 'rvstowrn@gmail.com', 'rvstowrn', 'Pass@6969');
+('Rishabh', 'rvstowrn@gmail.com', 'rvstowrn', 'Pass@6969'),
+('ris', 'ris@gmail.com', 'pass', 'Pass@2233');
 
 -- --------------------------------------------------------
 
@@ -73,13 +74,6 @@ CREATE TABLE `product` (
   `imglink` varchar(1000) NOT NULL,
   `description` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `product`
---
-
-INSERT INTO `product` (`productid`, `name`, `imglink`, `description`) VALUES
-('16040020037242357205f9b20d37c125', 'Nike air pro', '16040020037242357205f9b20d37c125', 'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum ');
 
 -- --------------------------------------------------------
 
@@ -119,8 +113,11 @@ CREATE TABLE `trivia` (
 --
 
 INSERT INTO `trivia` (`q`, `a`) VALUES
-('In which month was LAND first website created?', 'october'),
-('First Product mentioned on LAND Fast?', 'nike air pro');
+('Who won grammy in 2020?', 'Eminem'),
+('Who has max song on billboard in march 2020?', 'Rihana'),
+('What was the debut song of justin beiber?', 'Baby'),
+('When was taylor swift album RED released?', '2012'),
+('Which band created songs for most of Transformer Movie Franchise?', 'Linkin Park');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

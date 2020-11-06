@@ -60,7 +60,7 @@
             padding-top:5px;
         }
         .left{
-            top:120px;
+            top:100px;
             left:0px;
         }
         .right{
@@ -115,23 +115,25 @@
     <h1 class='title'>Employee Home</h1>
     <div class='function left'>Add Product</div>
     <form id="form" action="./server_scripts/product_handler.php" method="POST" enctype="multipart/form-data">
-        <h4>Product Name</h4>
+        <h4>Song Name</h4>
         <input type='text' name='name' id='title' onkeyup='preview()'>
-        <h4>Product Image</h4>
+        <h4>Song File</h4>
+        <input name='filelink' type='file'>
+        <h4>Song Thumbnail</h4>
         <input name='imglink' type='file'>
-        <h4>Product Description</h4>
+        <h4>Song Desciption</h4>
         <textarea name='description' onkeyup='preview()' id='description'></textarea><br>
         <button> S U B M I T </button>
     </form>
     <div class="preview">
         <div class='flex_box'>
             <div class='flex_img'>
-                <img src='./img/photo_2.jpg'>
+                <img src='./img/music_thumb.jpg'>
             </div>
             <div class='flex_text'>
                 <h4 id='heading'></h4>
                 <p id='desc'></p>
-                <button>Book a slot</button>
+                <button>Download</button>
             </div>
         </div>
         <div class='function right'>Preview</div>

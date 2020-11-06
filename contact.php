@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LAND fast | Contact</title>
-    <meta name="description" content="Welcome to the best product landing page around." />    
+    <title>Music Nation | Contact</title>
+    <meta name="description" content="Welcome to the best music downlaod page." />    
     <link rel="stylesheet" href="css/style.css" />
     <style>
       #message{
         height:60px;
         font-size:25px;
+      }
+      .btn{
+        top: 0;
+        left: 0;
       }
     </style>
   </head>
@@ -17,7 +21,7 @@
     <header>
       <nav id="navbar">
         <div class="container">
-          <h1 class="logo"><a href="index.html">LAND fast</a></h1>
+          <h1 class="logo"><a href="index.html">Music Nation</a></h1>
           <ul>
             <li><a href="index.php">Home</a></li>  
             <li><a class="current" href="contact.php">Contact</a></li>         
@@ -69,7 +73,7 @@
       </div>
     </section>
     <footer id="main-footer">
-      <p>LAND fast &copy; 2020, All Rights Reserved</p>
+      <p>Music Nation &copy; 2020, All Rights Reserved</p>
     </footer>
     <script
       src="https://kit.fontawesome.com/8da90a7057.js"

@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music Nation | Home</title>
-    <meta
-      name="description"
-      content="Welcome to the best product landing page around."
-    />
+    <meta name="description" content="Welcome to the best music downlaod page." />    
     <meta
       name="keywords"
       content="product landing,advertising,product promotion"
@@ -104,7 +101,7 @@
                     <h3>".$product_row['name']."</h3>
                     ".$product_row["description"]."
                     <button>
-                      <a href='./order.php?q=".$product_row["productid"]."'>
+                      <a href='./music/".$product_row["productid"].".mp3' download>
                         Download
                       </a>
                     </button>
@@ -121,7 +118,7 @@
 
     <div class="clr"></div>
     <footer id="main-footer">
-      <p>LAND fast&copy; 2020, All Rights Reserved</p>
+      <p>MUSICNATION &copy; 2020, All Rights Reserved</p>
     </footer>
     <script
       src="https://kit.fontawesome.com/8da90a7057.js"
