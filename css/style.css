@@ -39,14 +39,21 @@ p {
 }
 
 .text-primary {
-  color: #f7c08a;
+  color: #d88c40;
 }
 
 .lead {
-  font-size: 20px;
+  border-bottom: 7px solid gray;
+  position: relative;
+  width: 300px;
+  top: -350px;
+  left: 5px;
 }
 
 .btn {
+  position: relative;
+  top: -325px;
+  left: 5px;
   display: inline-block;
   font-size: 18px;
   color: #fff;
@@ -149,14 +156,16 @@ p {
 }
 
 #showcase .showcase-content {
-  color: #fff;
-  text-align: center;
+  color: #000;
+  text-align: start;
   padding-top: 170px;
 }
 
 #showcase .showcase-content h1 {
   font-size: 60px;
   line-height: 4.1em;
+  position: relative;
+  top: -250px;
 }
 
 #showcase .showcase-content p {

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LAND fast | Home</title>
+    <title>Music Nation | Home</title>
     <meta
       name="description"
       content="Welcome to the best product landing page around."
@@ -67,7 +67,7 @@
     <header>
       <nav id="navbar">
         <div class="container">
-          <h1 class="logo"><a href="index.html">LAND fast</a></h1>
+          <h1 class="logo"><a href="index.html">Music Nation</a></h1>
           <ul>
             <li><a class="current" href="index.php">Home</a></li>  
             <li><a href="contact.php">Contact</a></li>         
@@ -80,9 +80,9 @@
       <div id="showcase">
         <div class="container">
           <div class="showcase-content">
-            <h1><span class="text-primary">feel</span> the comfort</h1>
+            <h1><span class="text-primary">Vibe</span> in comfort</h1>
             <p class="lead"></p>
-            <a class="btn" href="about.php">i'm interested</a>
+            <a class="btn" href="about.php">KNOW MORE</a>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@
                     ".$product_row["description"]."
                     <button>
                       <a href='./order.php?q=".$product_row["productid"]."'>
-                        Book a slot
+                        Download
                       </a>
                     </button>
                   </div>
